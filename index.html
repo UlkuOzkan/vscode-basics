@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>vscode-basics</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Merhaba, Live Server çalışıyor! 🎉</h1>
+      <p>Bu sayfayı kaydettikçe otomatik yenilendiğini göreceksin.</p>
+      <button id="btn">Bana tıkla</button>
+      <p id="out"></p>
+    </main>
+
+    <script>
+      document.getElementById("btn").addEventListener("click", () => {
+        document.getElementById("out").textContent = "Tıklandı! 👍";
+      });
+    </script>
+  </body>
+</html>
