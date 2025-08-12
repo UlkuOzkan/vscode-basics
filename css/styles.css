@@ -1,5 +1,11 @@
-* { box-sizing: border-box; }
-html, body { height: 100%; margin: 0; }
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
 body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   background: #f7f7fb;
@@ -11,11 +17,12 @@ body {
   padding: 24px;
   border-radius: 16px;
   background: #fff;
-  box-shadow: 0 6px 24px rgba(0,0,0,.08);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
   text-align: center;
 }
 button {
   padding: 10px 16px;
-  border: 0; border-radius: 10px;
+  border: 0;
+  border-radius: 10px;
   cursor: pointer;
 }
